@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.main {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-content: center;
+padding: 20px;
+width: 95%;
+height: 100%;
+}
+.leftBoxPluse{
+flex: 2;
+min-width: 300px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.leftBoxPluse1 {
+
+min-width: 250px;
+background-image: url('https://wallpaperaccess.com/full/380193.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 49.5%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.leftBoxPluse2 {
+
+min-width: 250px;
+background-image: url('https://wallpaperaccess.com/full/6101100.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+margin-top:20px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 49.5%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.leftBoxPluse1:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leftBoxPluse2:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.leftBox {
+flex: 1;
+min-width: 250px;
+background-image: url('https://i.pinimg.com/originals/c8/f3/29/c8f329f8101d80b8501fac260d714ae9.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 80%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leftBox:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rightBox {
+flex: 2;
+min-width: 300px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.fristBox {
+background-image: url('https://tse3.mm.bing.net/th?id=OIP.4bNIwIWwcZs49_l1LyaDRwHaE7&pid=Api&P=0&h=220');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 35%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fristBox:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.secondBox {
+display: flex;
+gap: 20px;
+}
+
+.second-2 {
+flex: 1;
+background-image: url('https://tse2.mm.bing.net/th?id=OIP.17lWCrtrBK638gH7CcdlzAHaE8&pid=Api&P=0&h=220');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+min-height: 23vh;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second-1 {
+flex: 1;
+background-image: url('https://wallpapercave.com/wp/wp4871770.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+min-height: 23vh;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second-1:hover, .second-2:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.thirdBox {
+background-image: url('https://www.hdwallpapers.in/download/colorful_autumn_leafed_trees_with_sunrays_and_landscape_view_of_mountains_4k_hd_nature-HD.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 35%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thirdBox:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+.main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftBox, .rightBox {
+    width: 100%;
+}
+
+.secondBox {
+    flex-direction: column;
+}
+
+.second-1, .second-2 {
+    width: 100%;
+}
+}
